@@ -16,7 +16,6 @@ const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);
 
 const App = () => {
-	// Поднимаем состояние статьи вверх, чтобы управлять им из формы
 	const [articleState, setArticleState] =
 		useState<ArticleStateType>(defaultArticleState);
 
